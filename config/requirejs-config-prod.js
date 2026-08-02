@@ -1,7 +1,7 @@
 let config = {
   map: {
     '*': {
-      OpenPix: 'https://plugin.openpix.com.br/v1/openpix.js',
+      OpenPix: 'https://plugin.woovi.com/v1/openpix.js',
     },
   },
 };

@@ -14,12 +14,12 @@ class OpenPixConfig
 
     public function getOpenPixApiUrl()
     {
-        return 'https://api.woovi.dev';
+        return 'https://api.woovi-sandbox.com';
     }
 
     public function getOpenPixPlatformUrl()
     {
-        return 'https://app.woovi.dev';
+        return 'https://app.woovi-sandbox.com';
     }
 
     public function getOpenPixPluginUrlScript(): string

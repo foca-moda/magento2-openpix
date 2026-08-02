@@ -12,16 +12,16 @@ class OpenPixConfig
 
     public function getOpenPixApiUrl()
     {
-        return 'https://api.openpix.com.br';
+        return 'https://api.woovi.com';
     }
 
     public function getOpenPixPlatformUrl()
     {
-        return 'https://app.openpix.com.br';
+        return 'https://app.woovi.com';
     }
 
     public function getOpenPixPluginUrlScript(): string
     {
-        return 'https://plugin.openpix.com.br/v1/openpix.js';
+        return 'https://plugin.woovi.com/v1/openpix.js';
     }
 }
