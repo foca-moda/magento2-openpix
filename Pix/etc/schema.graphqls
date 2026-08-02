@@ -1,0 +1,10 @@
+type OpenPixPayment {
+    qr_code_image: String
+    br_code: String
+    payment_link_url: String
+}
+
+extend type CustomerOrder {
+    openpix_payment: OpenPixPayment
+        @resolver(class: "OpenPix\\Pix\\Model\\Resolver\\OpenPixPayment")
+}
